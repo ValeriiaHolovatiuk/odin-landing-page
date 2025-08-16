@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto/Roboto-VariableFont.ttf");
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+body{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    font-family: "Roboto";
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+header, .hero-statement{
+    background-color: #1F2937;
+    padding: 25px 150px 0 150px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo-image{
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+}
+
+.header-logo{
+    font-family: "Roboto";
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 400;
+
+    display: flex;
+    align-items: center;
+}
+
+.header-links{
+    display: flex;
+
+    gap: 25px;
+}
+
+.hero-statement{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 350px;
+
+    padding: 100px 150px;
+
+    gap: 50px;
+}
+
+.hero-main-text{
+    font-family: "Roboto";
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-secondary-text{
+    font-family: "Roboto";
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 100;
+}
+
+.sign-up-hero-button{
+    background-color: #3882f6;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    font-family: "Roboto";
+    padding: 10px 40px;
+
+    margin-top: 25px;
+}
+
+.left-items{
+    max-width: 50%;
+}
+
+.right-items{
+    flex: 0 1 50%;
+    display: flex;
+    max-height: 100%
+}
+
+.right-items img{
+    width: 100%;
+}
