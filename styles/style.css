@@ -112,7 +112,7 @@ header{
     align-items: center;
     flex-direction: column;
 
-    padding: 0 150px 150px 150px;
+    padding: 0 350px 0 350px;
 }
 
 .information-header{
@@ -128,6 +128,10 @@ header{
     display: flex;
 
     gap: 50px;
+
+    margin-bottom: 200px;
+
+    width: fit-content;
 }
 
 .subtext-image{
@@ -152,4 +156,19 @@ header{
     margin: 0;
 
     text-align: center;
+}
+
+.main-quote-section{
+    padding: 150px;
+    background-color: #E5E7EB;
+    max-width: 100%;
+}
+
+.quote{
+    font-family: "Roboto";
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    width: fit-content;
 }
